@@ -1,0 +1,95 @@
+body, html{
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+#me{
+	position: fixed;
+	top: 329px;
+	left: 0px; 
+	width: 116px;
+	height: 271px;
+	background: url(../images/meSpriteSheet.png) no-repeat;
+	background-position: -492px 0px;
+}
+#charaterLand{
+	position: fixed;
+	top:0px;
+	left: 0px;
+	width: 5000px;
+	height: 600px;
+	background-color: skyblue;
+}
+#grass{
+	background: url(../images/grass.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 167px;
+	top: 433px;
+}
+#trees{
+	background: url(../images/trees.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 510px;
+	top: 90px;
+}#clouds{
+	background: url(../images/clouds.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 240px;
+	top: 0px;
+}
+#hills{
+	background: url(../images/hills.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 459px;
+	top: 141px;
+}
+#moon{
+	background: url(../images/moon.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 200px;
+	top: 0px;
+	left: 150px;
+}
+#sun{
+	background: url(../images/sun.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 492px;
+	top: 15px;
+	left: 4000px;
+}
+#stars{
+	background: url(../images/stars.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 223px;
+	top: 0px;
+}
+#sky{
+	background: url(../images/sky.png) no-repeat;
+	position: fixed;
+	width: 5000px;
+	height: 393px;
+	top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
