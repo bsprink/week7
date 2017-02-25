@@ -3,11 +3,14 @@ body, html{
 	margin: 0px;
 	
 }
-
+#scrollDiv{
+	height: 4000px;
+}
 #me{
 	position: fixed;
 	top: 329px;
-	left: 0px; 
+	left: 0px;
+
 	width: 116px;
 	height: 271px;
 	background: url(../images/meSpriteSheet.png) no-repeat;
