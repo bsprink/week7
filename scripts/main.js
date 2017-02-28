@@ -4,14 +4,14 @@
 $(document).scroll(function(){
 	console.log($(document).scrollTop());
 
-	$("#grass").css("right", String($(document).scrollTop() * .9) +"px");
-	$("#hills").css("right", String($(document).scrollTop() -5000 * .2) +"px");
-	$("#clouds").css("left", String ($(document).scrollTop()-3200 * .1) +"px");
-	$("#trees").css("right", String($(document).scrollTop() * .3) +"px");
+	$("#grass").css("left", String($(document).scrollTop() * -.9) +"px");
+	$("#hills").css("left", String($(document).scrollTop() * -.2) +"px");
+	$("#clouds").css("left", String ($(document).scrollTop() * -.1) +"px");
+	$("#trees").css("left", String($(document).scrollTop() * -.3) +"px");
 	$("#moon").css("top", String($(document).scrollTop() * .1) +"px");
 	$("#sky").css("right", String($(document).scrollTop() * .3) +"px");
-	$("#stars").css("left", String($(document).scrollTop() )  +"px");
-	$("#sun").css("left", String($(document).scrollTop() * 1) +"px");
+	$("#stars").css("right", String($(document).scrollTop() *.3)  +"px");
+	$("#sun").css("left", String($(document).scrollTop()  * .1 ) +"px");
 	
 });
 

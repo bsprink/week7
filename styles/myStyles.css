@@ -1,10 +1,13 @@
 body, html{
+	
 	padding: 0px;
 	margin: 0px;
 	
 }
+
+
 #scrollDiv{
-	height: 4000px;
+	height: 10000px;
 }
 #me{
 	position: fixed;
@@ -26,7 +29,7 @@ body, html{
 #grass{
 	background: url(../images/grass.png) ;
 	position: fixed;
-	width: 5000px;
+	width: 10000px;
 	height: 167px;
 	top: 433px;
 
@@ -65,9 +68,9 @@ body, html{
 	position: fixed;
 	width: 5000px;
 	height: 492px;
-	top: 15px;
-	left: 4000px;
-}
+	top: 100px;
+	
+	}
 #stars{
 	background: url(../images/stars.png) no-repeat;
 	position: fixed;
@@ -82,10 +85,34 @@ body, html{
 	height: 393px;
 	top: 0px;
 }
+#name{
+	font-family: 'Fredoka One', cursive;
+	font-size: 75px;
+	position: absolute;
+	color: skyblue;
+}
+#introText{
+	font-family: 'Fredoka One', cursive;
+	font-size: 45px;
+	position: absolute;
+	top:150px;
+	color: skyblue;
 
-
-
-
+}
+#edu{
+	font-family: 'Fredoka One', cursive;
+	font-size: 75px;
+	position: absolute;
+	left: 800px;
+}
+#eduText{
+	font-family: 'Fredoka One', cursive;
+	font-size: 45px;
+	position: absolute;
+	top:150px;
+	left: 800px;
+	color: skyblue;
+}
 
 
 
