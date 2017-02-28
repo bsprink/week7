@@ -10,7 +10,6 @@ body, html{
 	position: fixed;
 	top: 329px;
 	left: 0px;
-
 	width: 116px;
 	height: 271px;
 	background: url(../images/meSpriteSheet.png) no-repeat;
@@ -25,19 +24,21 @@ body, html{
 	background-color: skyblue;
 }
 #grass{
-	background: url(../images/grass.png) no-repeat;
+	background: url(../images/grass.png) ;
 	position: fixed;
 	width: 5000px;
 	height: 167px;
 	top: 433px;
-}
+
+	}
 #trees{
 	background: url(../images/trees.png) no-repeat;
 	position: fixed;
 	width: 5000px;
 	height: 510px;
 	top: 90px;
-}#clouds{
+}
+#clouds{
 	background: url(../images/clouds.png) no-repeat;
 	position: fixed;
 	width: 5000px;

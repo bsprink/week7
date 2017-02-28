@@ -1,36 +1,17 @@
 //my scripts
 
-//$(document).scroll(function(){
-	//console.log(
-			//$(document).scrollTop()
-		//);
-
-	//$("#frontClouds").css("left",String($(document).scrollTop() -70) + "px" );
-	//$("#middleClouds").css("left",String($(document).scrollTop() * .5) + "px" );
-	//$("#backClouds").css("left",String($(document).scrollTop() * .2) + "px" );
-	//$("#me").css("left",String($(document).scrollTop() * .2) + "px" );
-//
-//$(document).mousemove(function(p){
-	//console.log(p.pageX + "," +p.pageY);
-	//if(p.pageX > 100 && p.pageX < 900){
-		//$("#frontClouds").css("left",String(p.pageX * -.1) + "px" );
-		//$("#middleClouds").css("left",String(p.pageX * .0 ) + "px" );
-		//$("#backClouds").css("left",String(p.pageX * .0) + "px" );
-		//$("#me").css("left",String(p.pageX * .100) + "px" );
-	//}
-//});
 
 $(document).scroll(function(){
 	console.log($(document).scrollTop());
 
-	$("#trees").css("right", String($(document).scrollTop() - 3720) +"px");
-	$("#grass").css("right", String($(document).scrollTop() - 3700) +"px");
-	$("#hills").css("right", String($(document).scrollTop() - 3700) +"px");
-	//$("#sky").css("right", String($(document).scrollTop() - 1000) +"px");
-	
-	if( $ (document).scrollTop() > 0){
-		$("#row2").css("left", String ($(document).scrollTop() - 1000) + "px");
-	}
+	$("#grass").css("right", String($(document).scrollTop() * .9) +"px");
+	$("#hills").css("right", String($(document).scrollTop() -5000 * .2) +"px");
+	$("#clouds").css("left", String ($(document).scrollTop()-3200 * .1) +"px");
+	$("#trees").css("right", String($(document).scrollTop() * .3) +"px");
+	$("#moon").css("top", String($(document).scrollTop() * .1) +"px");
+	$("#sky").css("right", String($(document).scrollTop() * .3) +"px");
+	$("#stars").css("left", String($(document).scrollTop() )  +"px");
+	$("#sun").css("left", String($(document).scrollTop() * 1) +"px");
 	
 });
 
