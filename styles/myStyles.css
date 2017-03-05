@@ -7,7 +7,7 @@ body, html{
 
 
 #scrollDiv{
-	height: 10000px;
+	height: 50000px;
 }
 #me{
 	position: fixed;
@@ -29,29 +29,29 @@ body, html{
 #grass{
 	background: url(../images/grass.png) ;
 	position: fixed;
-	width: 10000px;
+	width: 50000px;
 	height: 167px;
 	top: 433px;
 
 	}
 #trees{
-	background: url(../images/trees.png) no-repeat;
+	background: url(../images/trees.png) ;
 	position: fixed;
-	width: 5000px;
+	width: 50000px;
 	height: 510px;
 	top: 90px;
 }
 #clouds{
-	background: url(../images/clouds.png) no-repeat;
+	background: url(../images/clouds.png) ;
 	position: fixed;
-	width: 5000px;
+	width: 50000px;
 	height: 240px;
 	top: 0px;
 }
 #hills{
-	background: url(../images/hills.png) no-repeat;
+	background: url(../images/hills.png) ;
 	position: fixed;
-	width: 5000px;
+	width: 50000px;
 	height: 459px;
 	top: 141px;
 }
@@ -69,14 +69,16 @@ body, html{
 	width: 5000px;
 	height: 492px;
 	top: 100px;
+	left:3000px;
 	
 	}
 #stars{
-	background: url(../images/stars.png) no-repeat;
+	background: url(../images/stars.png) ;
 	position: fixed;
 	width: 5000px;
 	height: 223px;
-	top: 0px;
+	
+
 }
 #sky{
 	background: url(../images/sky.png) no-repeat;
@@ -87,40 +89,67 @@ body, html{
 }
 #name{
 	font-family: 'Fredoka One', cursive;
-	font-size: 75px;
+	font-size: 55px;
 	position: absolute;
-	color: skyblue;
+	
+	left:370px;
 }
 #introText{
 	font-family: 'Fredoka One', cursive;
-	font-size: 45px;
+	font-size: 25px;
 	position: absolute;
-	top:150px;
-	color: skyblue;
+	top:70px;
+	left:400px;
 
 }
 #edu{
 	font-family: 'Fredoka One', cursive;
-	font-size: 75px;
+	font-size: 55px;
 	position: absolute;
-	left: 800px;
+	color: white;
+	top:400px;
+	left: 670px;
 }
 #eduText{
 	font-family: 'Fredoka One', cursive;
+	font-size: 25px;
+	position: absolute;
+	top:470px;
+	left: 370px;
+	color: white;
+}
+#workHist{
+	font-family: 'Fredoka One', cursive;
+	font-size: 35px;
+	position: absolute;
+	left: 900px;
+	top:100px;
+	
+}
+#workHistText{
+	font-family: 'Fredoka One', cursive;
+	font-size: 15px;
+	position: absolute;
+	top:200px;
+	left: 900px;
+	
+}
+#contact{
+	font-family: 'Fredoka One', cursive;
 	font-size: 45px;
 	position: absolute;
-	top:150px;
-	left: 800px;
-	color: skyblue;
+	top:250px;
+	left: px;
+	color: white;
 }
+#email{
+    font-family: 'Fredoka One', cursive;
+	font-size: 45px;
+	position: absolute;
+	top:300px;
+	left: px;
+	color: white;
 
-
-
-
-
-
-
-
-
+}
 
 
