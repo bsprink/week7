@@ -90,8 +90,7 @@ body, html{
 #name{
 	font-family: 'Fredoka One', cursive;
 	font-size: 55px;
-	position: absolute;
-	
+	position: relative;
 	left:370px;
 }
 #introText{

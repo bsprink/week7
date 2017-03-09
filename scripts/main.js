@@ -11,8 +11,8 @@ $(document).scroll(function(){
 	$("#moon").css("top", String($(document).scrollTop() * .1) +"px");
 	$("#sky").css("right", String($(document).scrollTop() * .3) +"px");
 	$("#stars").css("right", String($(document).scrollTop() * .3)  +"px");
-	$("#name").css("top", String($(document).scrollTop() * .09) +"px");
-	$("#introText").css("top",  String($(document).scrollTop() * .08) +"px");
+	//$("#name").css("top", String($(document).scrollTop() * .09) +"px");
+	//$("#introText").css("top",  String($(document).scrollTop() * .08) +"px");
 	//$("#edu").css("top", String($(document).scrollTop() * .07) +"px");
 	//$("#eduText").css("top",  String($(document).scrollTop() * .06) +"px");
 	//$("#workHist").css("top", String($(document).scrollTop() * .05) +"px");
@@ -69,3 +69,5 @@ $(document).scroll(function(){
 		guyMoving = false;
 	});
 });
+var s = skrollr.init();
+new WOW().init();
